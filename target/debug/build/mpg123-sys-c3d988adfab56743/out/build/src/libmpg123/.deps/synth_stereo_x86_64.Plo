@@ -1,0 +1,11 @@
+src/libmpg123/synth_stereo_x86_64.lo: \
+  /Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libmpg123/synth_stereo_x86_64.S \
+  /Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libmpg123/mangle.h \
+  src/config.h \
+  /Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/intsym.h
+
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libmpg123/mangle.h:
+
+src/config.h:
+
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/intsym.h:

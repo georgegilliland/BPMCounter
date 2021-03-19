@@ -1,0 +1,11 @@
+prefix=/Users/georgegilliland/IdeaProjects/bpm_counter/target/debug/build/mpg123-sys-c3d988adfab56743/out
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmpg123
+Description: An optimised MPEG Audio decoder
+Requires: 
+Version: 1.24.0
+Libs: -L${libdir} -lmpg123 
+Cflags: -I${includedir} 

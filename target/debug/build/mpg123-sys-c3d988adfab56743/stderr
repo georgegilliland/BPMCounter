@@ -1,0 +1,220 @@
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/configure: line 18300: artsc-config: command not found
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libmpg123/frame.c:846:4: warning: format specifies type 'long' but the argument has type 'off_t' (aka 'long long') [-Wformat]
+        , total_samples, gapless_samples);
+          ^~~~~~~~~~~~~
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libmpg123/frame.c:846:19: warning: format specifies type 'long' but the argument has type 'off_t' (aka 'long long') [-Wformat]
+        , total_samples, gapless_samples);
+                         ^~~~~~~~~~~~~~~
+2 warnings generated.
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:53:15: warning: 'alcOpenDevice' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        al->device = alcOpenDevice(NULL);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h:209:38: note: 'alcOpenDevice' has been explicitly marked deprecated here
+ALC_API ALCdevice *     ALC_APIENTRY alcOpenDevice( const ALCchar *devicename ) OPENAL_DEPRECATED;
+                                     ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:54:16: warning: 'alcCreateContext' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        al->context = alcCreateContext(al->device, NULL);
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h:191:38: note: 'alcCreateContext' has been explicitly marked deprecated here
+ALC_API ALCcontext *    ALC_APIENTRY alcCreateContext( ALCdevice *device, const ALCint* attrlist ) OPENAL_DEPRECATED;
+                                     ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:55:2: warning: 'alcMakeContextCurrent' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        alcMakeContextCurrent(al->context);
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h:193:38: note: 'alcMakeContextCurrent' has been explicitly marked deprecated here
+ALC_API ALCboolean      ALC_APIENTRY alcMakeContextCurrent( ALCcontext *context ) OPENAL_DEPRECATED;
+                                     ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:56:2: warning: 'alGenSources' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        alGenSources(1, &al->source);
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:498:25: note: 'alGenSources' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGenSources( ALsizei n, ALuint* sources ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:71:54: warning: 'alIsExtensionPresent' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        return MPG123_ENC_SIGNED_16|MPG123_ENC_UNSIGNED_8|((alIsExtensionPresent((ALubyte*)"AL_EXT_float32") == AL_TRUE) ? MPG123_ENC_FLOAT_32 : 0);
+                                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:413:30: note: 'alIsExtensionPresent' has been explicitly marked deprecated here
+AL_API ALboolean AL_APIENTRY alIsExtensionPresent( const ALchar* extname ) OPENAL_DEPRECATED;
+                             ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:71:75: warning: passing 'ALubyte *' (aka 'unsigned char *') to parameter of type 'const ALchar *' (aka 'const char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        return MPG123_ENC_SIGNED_16|MPG123_ENC_UNSIGNED_8|((alIsExtensionPresent((ALubyte*)"AL_EXT_float32") == AL_TRUE) ? MPG123_ENC_FLOAT_32 : 0);
+                                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:413:66: note: passing argument to parameter 'extname' here
+AL_API ALboolean AL_APIENTRY alIsExtensionPresent( const ALchar* extname ) OPENAL_DEPRECATED;
+                                                                 ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:79:2: warning: 'alGetSourcei' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        alGetSourcei(al->source, AL_BUFFERS_QUEUED, &n);
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:530:25: note: 'alGetSourcei' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGetSourcei( ALuint sid,  ALenum param, ALint* value ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:82:3: warning: 'alGenBuffers' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alGenBuffers(1, &al->buffer);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:592:25: note: 'alGenBuffers' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGenBuffers( ALsizei n, ALuint* buffers ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:86:3: warning: 'alGetSourcei' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alGetSourcei(al->source, AL_SOURCE_STATE, &state);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:530:25: note: 'alGetSourcei' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGetSourcei( ALuint sid,  ALenum param, ALint* value ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:89:4: warning: 'alSourcePlay' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                        alSourcePlay(al->source);
+                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:558:25: note: 'alSourcePlay' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alSourcePlay( ALuint sid ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:91:9: warning: 'alGetSourcei' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                while(alGetSourcei(al->source, AL_BUFFERS_PROCESSED, &n), n == 0)
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:530:25: note: 'alGetSourcei' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGetSourcei( ALuint sid,  ALenum param, ALint* value ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:95:3: warning: 'alSourceUnqueueBuffers' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alSourceUnqueueBuffers(al->source, 1, &al->buffer);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:574:25: note: 'alSourceUnqueueBuffers' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alSourceUnqueueBuffers( ALuint sid, ALsizei numEntries, ALuint *bids ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:98:2: warning: 'alBufferData' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        alBufferData(al->buffer, al->format, buf, len, al->rate);
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:601:25: note: 'alBufferData' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alBufferData( ALuint bid, ALenum format, const ALvoid* data, ALsizei size, ALsizei freq ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:99:2: warning: 'alSourceQueueBuffers' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+        alSourceQueueBuffers(al->source, 1, &al->buffer);
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:572:25: note: 'alSourceQueueBuffers' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alSourceQueueBuffers( ALuint sid, ALsizei numEntries, const ALuint *bids ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:112:9: warning: 'alGetSourcei' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                while(alGetSourcei(al->source, AL_SOURCE_STATE, &state), state == AL_PLAYING)
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:530:25: note: 'alGetSourcei' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGetSourcei( ALuint sid,  ALenum param, ALint* value ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:117:9: warning: 'alGetSourcei' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                while(alGetSourcei(al->source, AL_BUFFERS_PROCESSED, &n), n > 0)
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:530:25: note: 'alGetSourcei' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGetSourcei( ALuint sid,  ALenum param, ALint* value ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:119:4: warning: 'alSourceUnqueueBuffers' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                        alSourceUnqueueBuffers(al->source, 1, &al->buffer);
+                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:574:25: note: 'alSourceUnqueueBuffers' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alSourceUnqueueBuffers( ALuint sid, ALsizei numEntries, ALuint *bids ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:120:4: warning: 'alDeleteBuffers' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                        alDeleteBuffers(1, &al->buffer);
+                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:595:25: note: 'alDeleteBuffers' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alDeleteBuffers( ALsizei n, const ALuint* buffers ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:122:3: warning: 'alDeleteSources' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alDeleteSources(1, &al->source);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:501:25: note: 'alDeleteSources' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alDeleteSources( ALsizei n, const ALuint* sources ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:123:3: warning: 'alcMakeContextCurrent' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alcMakeContextCurrent(NULL);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h:193:38: note: 'alcMakeContextCurrent' has been explicitly marked deprecated here
+ALC_API ALCboolean      ALC_APIENTRY alcMakeContextCurrent( ALCcontext *context ) OPENAL_DEPRECATED;
+                                     ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:124:3: warning: 'alcDestroyContext' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alcDestroyContext(al->context);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h:199:38: note: 'alcDestroyContext' has been explicitly marked deprecated here
+ALC_API void            ALC_APIENTRY alcDestroyContext( ALCcontext *context ) OPENAL_DEPRECATED;
+                                     ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:125:3: warning: 'alcCloseDevice' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alcCloseDevice(al->device);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h:211:38: note: 'alcCloseDevice' has been explicitly marked deprecated here
+ALC_API ALCboolean      ALC_APIENTRY alcCloseDevice( ALCdevice *device ) OPENAL_DEPRECATED;
+                                     ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:139:3: warning: 'alSourceStop' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                alSourceStop(al->source);
+                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:561:25: note: 'alSourceStop' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alSourceStop( ALuint sid ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:140:9: warning: 'alGetSourcei' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                while(alGetSourcei(al->source, AL_BUFFERS_PROCESSED, &n), n > 0)
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:530:25: note: 'alGetSourcei' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alGetSourcei( ALuint sid,  ALenum param, ALint* value ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:142:4: warning: 'alSourceUnqueueBuffers' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                        alSourceUnqueueBuffers(al->source, 1, &al->buffer);
+                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:574:25: note: 'alSourceUnqueueBuffers' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alSourceUnqueueBuffers( ALuint sid, ALsizei numEntries, ALuint *bids ) OPENAL_DEPRECATED;
+                        ^
+/Users/georgegilliland/.cargo/registry/src/github.com-1ecc6299db9ec823/mpg123-sys-0.6.0/source/src/libout123/modules/openal.c:143:4: warning: 'alDeleteBuffers' is deprecated: first deprecated in macOS 10.15 - OpenAL is deprecated in favor of AVAudioEngine [-Wdeprecated-declarations]
+                        alDeleteBuffers(1, &al->buffer);
+                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h:595:25: note: 'alDeleteBuffers' has been explicitly marked deprecated here
+AL_API void AL_APIENTRY alDeleteBuffers( ALsizei n, const ALuint* buffers ) OPENAL_DEPRECATED;
+                        ^
+26 warnings generated.
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
+clang: warning: optimization flag '-funroll-all-loops' is not supported [-Wignored-optimization-argument]
